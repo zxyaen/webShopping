@@ -1,0 +1,13 @@
+.title{
+    margin: 10px auto;
+    text-align: center;
+}
+.goods{
+    width: 90%;
+    border: 1px solder rgb(218, 213, 213);
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+}
