@@ -1,7 +1,28 @@
-
+.detail{
+    display: flex;
+    width: 1200px;
+}
 .detail-info-img{
+    flex-grow: 1;
+
     background-color: aquamarine;
 }
+.detail-info-img img{
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
 .detail-info{
+    flex-grow: 8;
+    height: 500px;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-left: 50px;
     background-color: bisque;
+}
+.detail-info h2,
+.detail-info p,
+.detail-info button{
+    margin: 10px;
 }
