@@ -1,0 +1,53 @@
+.shopCar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(228, 228, 228);
+  padding: 4px 10px;
+}
+.shopCarList {
+  display: flex;
+  width: 400px;
+}
+.shopCarList li {
+  margin-right: 100px;
+}
+
+.goodsList {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 10px 4px 0;
+  margin-top: 4px;
+  border-top: 3px solid black;
+  height: 200px;
+}
+.goodsList li {
+  line-height: 200px;
+}
+.goodImg {
+  flex-basis: 400px;
+  height: 200px;
+}
+.goodImg #goodCheckbox {
+  margin: auto 10px;
+}
+.goodImg img {
+  width: 50%;
+  height: 80%;
+  margin-left: 40px;
+}
+.goodsList .num {
+  display: flex;
+  width: 100px;
+  height: 20px;
+}
+.goodsList span{
+    display: flex;
+align-items: center;
+}
+.goodsList .num button,
+.goodsList .num input {
+  text-align: center;
+  line-height: 100%;
+  width: 100%;
+  height: 100%;
+}

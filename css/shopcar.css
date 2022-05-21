@@ -11,3 +11,34 @@
     position: fixed;
     bottom: 0px;
 }
+
+table {
+    width: 50%;
+    position: relative;
+    margin: 0px auto;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+th {
+    background-color: rgb(245, 210, 210);
+    text-align: center;
+    height: 2.5em;
+    margin: 0 auto;
+}
+
+tr {
+    height: 2.5em;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+.tr{
+    height: 6em;
+}
+
+.box {
+    margin: auto;
+    width: 50%;
+}

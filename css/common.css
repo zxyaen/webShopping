@@ -11,6 +11,9 @@
   margin: 0 auto;
 }
 
+body{
+  /* background-color: #f9c6ba; */
+}
 .body .col-sm img {
   height: 150px;
   width: 150px;
@@ -36,7 +39,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FAECE8;
+  /* background-color: #FAECE8; */
   border-bottom: 1px solid #efdad5;
   font-size: 12px;
 }
@@ -89,9 +92,14 @@
 /* end */
 
 /* nav start */
+nav{
+  border-top: 1px solid #efdad5;
+  padding: auto 200px;
+}
 nav .nav {
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 nav .nav a{
     font-size: 0.3em;

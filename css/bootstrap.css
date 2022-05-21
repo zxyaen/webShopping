@@ -4442,7 +4442,7 @@ input[type="submit"].btn-block {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #FAECE8;
+  /* background-color: #FAECE8; */
   border-radius: 0.25rem;
 }
 .breadcrumb-item + .breadcrumb-item {
